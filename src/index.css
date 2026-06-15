@@ -1,0 +1,55 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #05050F;
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05050F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#63D7FF, #7C4DFF);
+  border-radius: 3px;
+}
+
+/* Selection highlight */
+::selection {
+  background: rgba(99, 215, 255, 0.25);
+  color: #fff;
+}
+
+/* Remove default button/input appearance */
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
