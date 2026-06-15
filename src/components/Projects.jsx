@@ -8,7 +8,7 @@ const projects = [
     category: "Full-Stack",
     gradient: "linear-gradient(135deg,#63D7FF,#7C4DFF)",
     icon: "📋", 
-    videoUrl: "/todo-app-demo.mp4", // Rename your file to this
+    videoUrl: "https://raw.githubusercontent.com/laraibnaeem77/my-portfolio/main/public/todo-app-demo.mp4", // Rename your file to this
     github: "https://github.com/laraibnaeem77/todo-list-fullstack",
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     category: "Full-Stack",
     gradient: "linear-gradient(135deg,#7C4DFF,#FF6B9D)",
     icon: "🦠",
-    videoUrl: "/covid-risk-assessment.mp4", // Rename your file to this
+    videoUrl: "https://raw.githubusercontent.com/laraibnaeem77/my-portfolio/main/public/covid-risk-assessment.mp4", // Rename your file to this
     github: "https://github.com/laraibnaeem77/covid-app",
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     category: "Full-Stack",
     gradient: "linear-gradient(135deg,#00C9A7,#63D7FF)",
     icon: "🏥",
-    videoUrl: "/liver-disease-prediction.mp4", // Rename your file to this
+    videoUrl: "https://raw.githubusercontent.com/laraibnaeem77/my-portfolio/main/public/liver-disease-prediction.mp4", // Rename your file to this
     github: "https://github.com/laraibnaeem77/liver-analytics-fullstack",
   },
   {
@@ -38,7 +38,7 @@ const projects = [
     category: "Frontend",
     gradient: "linear-gradient(135deg,#FF9A3C,#FF6B9D)",
     icon: "🏏",
-    videoUrl: "/cricket-app-demo.mp4", // Rename your file to this
+    videoUrl: "https://raw.githubusercontent.com/laraibnaeem77/my-portfolio/main/public/cricket-app-demo.mp4", // Rename your file to this
     github: "https://github.com/laraibnaeem77/Cricket-App",
   }
   //{
