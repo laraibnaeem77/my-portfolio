@@ -136,7 +136,7 @@ export default function Hero() {
           </div>
  
           <div style={{ display: "flex", gap: 40, marginTop: 52 }}>
-            {[["10+", "Projects Done"]].map(([n, l]) => (
+            {[["6+", "Projects Done"]].map(([n, l]) => (
               <div key={l}>
                 <div style={{ fontFamily: "'Clash Display',sans-serif", fontSize: 32, fontWeight: 700, color: "#fff" }}>{n}</div>
                 <div style={{ fontFamily: "'Space Grotesk',sans-serif", fontSize: 13, color: "rgba(255,255,255,0.45)", marginTop: 2 }}>{l}</div>
